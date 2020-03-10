@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Donate"
+    android:background="@drawable/backgroundtest">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do you want to donate or is someone else is donating?"
+            android:textColor="#000" />
+        <RadioGroup
+            android:id="@+id/radiog"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp">
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Me"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Someone else"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editText22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_margin="5dp"
+            android:background="@drawable/commontextfield1"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/editText25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/commontextfield1"
+            android:ems="10"
+            android:hint="E-Mail |ID|"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/editText26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="10dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/commontextfield1"
+            android:ems="10"
+            android:hint="Mobile No."
+            android:inputType="phone"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/editText27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="10dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/commontextfield1"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/editText28"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/commontextfield1"
+            android:ems="10"
+            android:hint="No.Of months since last Donation(In months)"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/commonbuttonsmall1"
+            android:text="Continue"
+            android:textColor="#E9E9E5"
+            android:visibility="invisible" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary"><!--#008577-->#fafafa</color>
+    <color name="colorPrimaryDark"><!--#00574B--><!--#e0e0e0-->#757575</color>
+    <color name="colorAccent"><!--#D81B60-->#941919</color>
+    <color name="ToolbarColor">#FEF9E2</color>
+</resources>

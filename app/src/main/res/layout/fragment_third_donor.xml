@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdDonor"
+    android:background="@drawable/backgroundtest1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/commontextfield1"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/commontextfield1"
+            android:ems="10"
+            android:hint="E-mail ID"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/commontextfield1"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:textColorHint="#000" />
+
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/commontextfield1"
+            android:ems="10"
+            android:hint="Aadhar Card Number"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textColorHint="#000" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/slotdate1"
+            android:gravity="center_vertical"
+            android:text="Birth Date"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:background="@drawable/commontextfield1"
+            android:padding="5dp" />
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:background="@drawable/commonbuttonsmall1"
+            android:padding="5dp"
+            android:text="Submit"
+            android:textColor="#E9E9E5" />
+    </LinearLayout>
+
+</ScrollView>
